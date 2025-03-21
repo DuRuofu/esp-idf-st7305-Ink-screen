@@ -23,6 +23,7 @@ public:
     void drawFastVLine(int16_t x, int16_t y, int16_t len, uint16_t color);
 
     // 画直线
+    using Adafruit_GFX::drawLine;
     void drawLine(uint x1, uint y1, uint x2, uint y2, uint16_t color);
 
     // 画三角形
